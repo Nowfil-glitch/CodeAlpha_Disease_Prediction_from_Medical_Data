@@ -1,5 +1,7 @@
 # Task 4: Disease Prediction from Medical Data — CodeAlpha Machine Learning Internship
 
+![Disease Prediction Web UI Preview](ui_preview.png)
+
 ## 📌 Project Overview
 This project delivers a multi-condition clinical risk prediction platform for **Heart Disease & Diabetes**, developed for the **CodeAlpha Machine Learning Internship**.
 
@@ -12,6 +14,11 @@ Using patient clinical measurements (blood pressure, fasting glucose, serum chol
 - **Algorithms Evaluated**: **SVM (Support Vector Classifier)**, **Logistic Regression**, **Random Forest**, and **XGBoost**.
 - **Metrics Evaluated**: Precision, Recall, F1-Score, ROC-AUC curve performance, Confusion Matrices.
 - **Interactive Medical Dashboard**: Web application featuring real-time risk gauges, diagnostic pills, and clinical input sliders.
+
+---
+
+## 📊 Confusion Matrices & Performance
+![Confusion Matrices](confusion_matrices.png)
 
 ---
 
@@ -32,12 +39,6 @@ Using patient clinical measurements (blood pressure, fasting glucose, serum chol
    python app.py
    ```
    Access `http://localhost:5003` in your browser.
-
----
-
-## 📈 Model Performance
-- **Heart Disease Model ROC-AUC**: ~0.94+
-- **Diabetes Model ROC-AUC**: ~0.92+
 
 ---
 
